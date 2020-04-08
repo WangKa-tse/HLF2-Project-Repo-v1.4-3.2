@@ -1,0 +1,30 @@
+2020/04/06 23:54:00 [INFO] Configuration file location: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/fabric-ca-server-config.yaml
+2020/04/06 23:54:00 [INFO] Starting server in home directory: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server
+2020/04/06 23:54:00 [WARNING] Unknown provider type: ; metrics disabled
+2020/04/06 23:54:00 [INFO] Server Version: 2.0.0
+2020/04/06 23:54:00 [INFO] Server Levels: &{Identity:2 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}
+2020/04/06 23:54:00 [WARNING] &{69 The specified CA certificate file /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/ca-cert.pem does not exist}
+2020/04/06 23:54:00 [INFO] generating key: &{A:ecdsa S:256}
+2020/04/06 23:54:00 [INFO] encoded CSR
+2020/04/06 23:54:00 [INFO] signed certificate with serial number 236001500213036558456156897941173875955109789743
+2020/04/06 23:54:00 [INFO] The CA key and certificate were generated for CA acme-ca
+2020/04/06 23:54:00 [INFO] The key was stored by BCCSP provider 'SW'
+2020/04/06 23:54:00 [INFO] The certificate is at: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/ca-cert.pem
+2020/04/06 23:54:01 [INFO] Initialized sqlite3 database at /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/fabric-ca-server.db
+2020/04/06 23:54:01 [INFO] The issuer key was successfully stored. The public key is at: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/IssuerPublicKey, secret key is at: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/msp/keystore/IssuerSecretKey
+2020/04/06 23:54:01 [INFO] Idemix issuer revocation public and secret keys were generated for CA 'acme-ca'
+2020/04/06 23:54:01 [INFO] The revocation key was successfully stored. The public key is at: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/IssuerRevocationPublicKey, private key is at: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server/msp/keystore/IssuerRevocationPrivateKey
+2020/04/06 23:54:01 [INFO] Home directory for default CA: /home/gavin/Documents/HLF2-Project-Repo-v1.4-3.2/ca/multi-org-ca/server
+2020/04/06 23:54:01 [INFO] Operation Server Listening on [::]:42335
+2020/04/06 23:54:01 [INFO] Listening on http://0.0.0.0:7054
+2020/04/06 23:54:05 [INFO] signed certificate with serial number 331732194765146647750447342467351336751435037590
+2020/04/06 23:54:05 [INFO] 127.0.0.1:54198 POST /enroll 201 0 "OK"
+2020/04/06 23:54:06 [INFO] 127.0.0.1:54200 POST /register 201 0 "OK"
+2020/04/06 23:54:06 [INFO] 127.0.0.1:54202 POST /register 201 0 "OK"
+2020/04/06 23:54:07 [INFO] 127.0.0.1:54204 POST /register 201 0 "OK"
+2020/04/06 23:54:07 [INFO] signed certificate with serial number 581673064699455087852841840072276553566846551581
+2020/04/06 23:54:07 [INFO] 127.0.0.1:54206 POST /enroll 201 0 "OK"
+2020/04/06 23:54:07 [INFO] signed certificate with serial number 212720575485561739705362597211306631725162540095
+2020/04/06 23:54:07 [INFO] 127.0.0.1:54208 POST /enroll 201 0 "OK"
+2020/04/06 23:54:08 [INFO] signed certificate with serial number 562669345239573019355326759249375729823701352043
+2020/04/06 23:54:08 [INFO] 127.0.0.1:54210 POST /enroll 201 0 "OK"

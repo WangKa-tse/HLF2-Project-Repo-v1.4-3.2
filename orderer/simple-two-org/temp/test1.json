@@ -1,0 +1,10 @@
+{
+  "channel_id": "ordererchannel",
+  "epoch": "0",
+  "extension": null,
+  "timestamp": "2020-03-10T12:25:46Z",
+  "tls_cert_hash": null,
+  "tx_id": "b4ccad00b9878781580de045e5cef3d65f08d3df05d89eb7efc3a27fea69ec29",
+  "type": 1,
+  "version": 1
+}
